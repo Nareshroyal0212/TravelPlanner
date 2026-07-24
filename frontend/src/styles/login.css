@@ -1,0 +1,228 @@
+.login-page {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* FIX: Embedded your exact scenic desert road background asset with a balanced dark text overlay mask */
+  background: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+              ),
+              url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200");
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-card {
+  width: 420px;
+  background: white;
+  padding: 35px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.login-logo {
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+.login-card h1 {
+  color: #ff5a5f;
+  margin: 10px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.login-card form {
+  text-align: left;
+}
+
+.login-card label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  outline: none;
+  font-size: 15px;
+  box-sizing: border-box; /* Prevents input box elements from bleeding out layout boundaries */
+}
+
+.login-card input:focus {
+  border-color: #ff5a5f;
+  box-shadow: 0 0 0 3px rgba(255, 90, 95, 0.1);
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container span {
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.options input {
+  width: auto;
+  margin-right: 6px;
+  margin-bottom: 0; /* Clears baseline margins inherited from main input properties */
+}
+
+.forgot-btn {
+  background: none;
+  border: none;
+  color: #ff5a5f;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.forgot-btn:hover {
+  text-decoration: underline;
+}
+
+/* Primary Action Login Trigger Button */
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.login-btn:hover {
+  background: #e0484d;
+}
+
+.login-btn:active {
+  transform: scale(0.98);
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+}
+
+.message.success {
+  background: #e8f5e9;
+  color: #198754;
+}
+
+.message.error {
+  background: #ffebee;
+  color: #c62828;
+}
+
+/* Social Connection Elements Layout */
+.social-login {
+  margin-top: 25px;
+}
+
+.social-login p {
+  color: #777;
+  font-size: 14px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.social-login p::before, .social-login p::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #eee;
+  margin: 0 10px;
+}
+
+.social-buttons-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* FIX: Refactored selector to avoid clashing styles with your primary login button */
+.google-login-btn {
+  background: #ffffff !important;
+  color: #333 !important;
+  border: 1px solid #ddd !important;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.google-login-btn:hover {
+  background: #f8fafc !important;
+}
+
+.signup {
+  margin-top: 25px;
+  color: #555;
+  font-size: 14px;
+}
+
+.signup span {
+  color: #ff5a5f;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.signup span:hover {
+  text-decoration: underline;
+}

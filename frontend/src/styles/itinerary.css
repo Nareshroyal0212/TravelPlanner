@@ -1,0 +1,247 @@
+.itinerary-page {
+
+    min-height: 100vh;
+    padding: 40px;
+    background: #f4f8ff;
+
+}
+
+
+/* Header */
+
+.itinerary-header {
+
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+
+.itinerary-header p {
+
+    color: #ff5a5f;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+
+}
+
+
+.itinerary-header h1 {
+
+    font-size: 45px;
+    margin: 15px 0;
+    color: #222;
+
+}
+
+
+.itinerary-header span {
+
+    color: #666;
+    font-size: 18px;
+
+}
+
+
+
+/* Form Card */
+
+.itinerary-form {
+
+    width: 500px;
+    max-width: 90%;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+
+
+.itinerary-form h2 {
+
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+
+}
+
+
+
+.itinerary-form input {
+
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+
+}
+
+
+
+.itinerary-form input:focus {
+
+    border-color: #ff5a5f;
+
+}
+
+
+
+.itinerary-form button {
+
+    width: 100%;
+    padding: 14px;
+    background: #ff5a5f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+
+
+.itinerary-form button:hover {
+
+    background: #e0484d;
+
+}
+
+
+
+/* Title */
+
+.plan-title {
+
+    text-align: center;
+    margin: 50px 0 30px;
+    font-size: 30px;
+
+}
+
+
+
+/* Cards */
+
+.plan-grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 30px;
+
+}
+
+
+
+.plan-card {
+
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transition: 0.3s;
+
+}
+
+
+
+.plan-card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+
+.plan-card h2 {
+
+    color: #ff5a5f;
+    margin-bottom: 15px;
+
+}
+
+
+
+.plan-card p {
+
+    color: #555;
+    font-size: 16px;
+    margin: 12px 0;
+
+}
+
+
+
+/* Delete Button */
+
+.plan-card button {
+
+    margin-top: 15px;
+    background: #dc3545;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+
+}
+
+
+
+.plan-card button:hover {
+
+    background:#b52a36;
+
+}
+
+
+
+/* Empty Message */
+
+.empty-plan {
+
+    width:400px;
+    max-width:90%;
+    margin:auto;
+    background:white;
+    text-align:center;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+    .itinerary-page{
+
+        padding:20px;
+
+    }
+
+
+    .itinerary-header h1{
+
+        font-size:32px;
+
+    }
+
+
+    .itinerary-form{
+
+        padding:20px;
+
+    }
+
+}
