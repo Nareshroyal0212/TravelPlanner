@@ -70,8 +70,31 @@ Database
 MySQL
 Relational database used to store users, destinations, hotels, bookings, budgets, expenses, favorites, and itineraries.
 🔗 Application Flow
-                   
-                   <img width="213" height="432" alt="image" src="https://github.com/user-attachments/assets/300f7ec4-117d-4723-928a-6d98120a84aa" />
+                    ┌───────────────────┐
+                    │       User        │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │  React + Vite     │
+                    │    Frontend       │
+                    └─────────┬─────────┘
+                              │
+                        REST API Calls
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │   Spring Boot     │
+                    │     Backend       │
+                    └─────────┬─────────┘
+                              │
+                         JPA / Hibernate
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │      MySQL        │
+                    │     Database      │
+                    └───────────────────┘
 
 
 
@@ -82,12 +105,20 @@ TravelPlanner uses a MySQL database named travelplanner.
 The application contains entities for:
 
 Users
+
 Destinations
+
 Hotels
+
 Bookings
+
 Budgets
+
 Expenses
+
 Favorites
+
+
 Itineraries
 
 🖼️ Screenshots
