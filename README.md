@@ -1,4 +1,4 @@
-TravelPlanner
+🌍TravelPlanner
 Your smart travel companion for discovering, planning, and managing trips
 
 React • Vite • Spring Boot • Java • MySQL
@@ -9,9 +9,16 @@ TravelPlanner is a full-stack travel management application designed to help use
 
 It combines a modern React + Vite frontend, Spring Boot backend, and MySQL database to provide a complete travel planning experience.
 
-🌍 Explore Destinations	🏨 Discover Hotels	📅 Plan Trips	💰 Track Expenses
+🌍 Explore Destinations	
+🏨 Discover Hotels	
+📅 Plan Trips	
+💰 Track Expenses
 Explore travel destinations	Find suitable hotels	Organize your itinerary	Monitor your spending
-🎫 Manage Bookings	❤️ Favorites	💵 Manage Budgets	👨‍💼 Admin Dashboard
+🎫 Manage Bookings
+❤️ Favorites
+💵 Manage Budgets	
+👨‍💼 Admin Dashboard
+
 Manage travel bookings	Save places you like	Plan your travel budget	Manage application data
 🚀 Features
 🌍 Explore Destinations — Discover travel destinations and view important information
@@ -63,31 +70,7 @@ Database
 MySQL
 Relational database used to store users, destinations, hotels, bookings, budgets, expenses, favorites, and itineraries.
 🔗 Application Flow
-                    ┌───────────────────┐
-                    │       User        │
-                    └─────────┬─────────┘
-                              │
-                              ▼
-                    ┌───────────────────┐
-                    │  React + Vite     │
-                    │    Frontend       │
-                    └─────────┬─────────┘
-                              │
-                        REST API Calls
-                              │
-                              ▼
-                    ┌───────────────────┐
-                    │   Spring Boot     │
-                    │     Backend       │
-                    └─────────┬─────────┘
-                              │
-                         JPA / Hibernate
-                              │
-                              ▼
-                    ┌───────────────────┐
-                    │      MySQL        │
-                    │     Database      │
-                    └───────────────────┘
+                   <img width="213" height="432" alt="image" src="https://github.com/user-attachments/assets/832cf768-0c61-4e6d-af42-7388a3f273e6" />
 
 
                     🗄️ Database
