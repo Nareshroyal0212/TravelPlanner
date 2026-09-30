@@ -70,31 +70,8 @@ Database
 MySQL
 Relational database used to store users, destinations, hotels, bookings, budgets, expenses, favorites, and itineraries.
 🔗 Application Flow
-                    ┌───────────────────┐
-                    │       User        │
-                    └─────────┬─────────┘
-                              │
-                              ▼
-                    ┌───────────────────┐
-                    │  React + Vite     │
-                    │    Frontend       │
-                    └─────────┬─────────┘
-                              │
-                        REST API Calls
-                              │
-                              ▼
-                    ┌───────────────────┐
-                    │   Spring Boot     │
-                    │     Backend       │
-                    └─────────┬─────────┘
-                              │
-                         JPA / Hibernate
-                              │
-                              ▼
-                    ┌───────────────────┐
-                    │      MySQL        │
-                    │     Database      │
-                    └───────────────────┘
+
+                <img width="164" height="445" alt="image" src="https://github.com/user-attachments/assets/2796191f-5115-48f0-a0a6-43978f7c32a7" />
 
 
 
@@ -126,11 +103,17 @@ Itineraries
 Screenshots of the following application sections can be added here:
 
 Register Page
+
 Login Page
+
 Home Page
+
 Destinations
+
 Hotels
+
 Trip Planning
+
 Admin Dashboard
 
 
