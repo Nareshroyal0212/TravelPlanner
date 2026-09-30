@@ -70,6 +70,7 @@ Database
 MySQL
 Relational database used to store users, destinations, hotels, bookings, budgets, expenses, favorites, and itineraries.
 🔗 Application Flow
+                   
                    <img width="213" height="432" alt="image" src="https://github.com/user-attachments/assets/832cf768-0c61-4e6d-af42-7388a3f273e6" />
 
 
